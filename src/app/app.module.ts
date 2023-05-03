@@ -11,6 +11,10 @@ import { EtudiantsListComponent } from './dashboard/etudiants/etudiants-list/etu
 import { HomeComponent } from './components/home/home.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
+import { DepartementComponent } from './components/departement/departement.component';
+import { SlideComponent } from './components/slide/slide.component';
+import { EnseignantComponent } from './components/enseignant/enseignant.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +26,12 @@ import { HeaderComponent } from './components/header/header.component';
     EtudiantsListComponent,
     HomeComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    DepartementComponent,
+    SlideComponent,
+    EnseignantComponent,
+    LoginComponent
+
   ],
   imports: [
     BrowserModule,
